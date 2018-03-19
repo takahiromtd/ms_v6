@@ -1,0 +1,11 @@
+body{
+	background: #66e5ff;
+}
+.tkigyo-char-size{
+	max-width: 300px;
+}
+.box{
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border: solid 1px #fff;
+}
