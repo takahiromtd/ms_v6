@@ -52,7 +52,6 @@
     <?php get_template_part('ga_remarketing'); ?>
     <script src="https://use.typekit.net/vtq4rbj.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/navbar-lateral-slide-menu.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </body>
 </html>

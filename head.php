@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="yhBY75qhA2xA7ROIQj8zlDcgyNTHNS0Ot4zEnV8as44" />
     <title>海外ビジネス武者修行プログラム</title>
-    <link rel="stylesheet" type="text/css" href="//yui.yahooapis.com/3.16.0-rc-1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <?php get_template_part('fb-audience'); ?>

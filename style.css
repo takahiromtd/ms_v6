@@ -1,9 +1,10 @@
 @charset "utf-8"; /*utf-8の場合*/
 /*要素*/
 body{
+	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	padding-top: 90px;
-	font-family: 'Noto Sans Japanese',  sans-serif 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic";
 }
+
 /*default css*/
 .fs8{
 	font-size: 0.5em;
@@ -187,7 +188,7 @@ body{
 }
 p{
 	font-size: 16px;
-	line-height: 2;
+	line-height: 1.6;
 }
 ul,li{
 	margin: 0px;
@@ -255,7 +256,6 @@ a:active{
 
 .sche-tab{
 	font-weight: bold;
-	letter-spacing: 0.05em;
 	width: 72px;
 }
 .w76{
@@ -271,6 +271,7 @@ a:active{
 
 .nav-tabs li a{
 	border :none !important;
+	 border-radius: 0px; 
 }
 
 .sche-small{
@@ -292,7 +293,6 @@ a:active{
 }
 .sche-detail{
 	margin-top: 15px;
-	border: solid #ddd 1px;
 }
 .sche-detail-title{
 	border-bottom:solid #ddd 1px;
@@ -303,11 +303,11 @@ a:active{
 }
 .sche-detail p{
 	line-height: 2em;
-	padding: 15px;
+	padding: 10px;
 }
 .sche-detail h2{
 	font-size: 18px;
-	padding: 8px;
+	padding: 4px 8px;
 	font-weight: bold;
 	border-bottom: dotted 1px #ddd;
 }
@@ -315,7 +315,8 @@ a:active{
 	margin-bottom: 20px;
 }
 .sche-detail ul li{
-	padding: 4px 15px;
+	padding: 4px 2px 4px 8px;
+	letter-spacing: 0.8px;
 }
 
 
@@ -615,6 +616,9 @@ a:active{
 }
 .pad5{
 	padding: 5px;
+}
+.pad10{
+	padding: 10px;
 }
 .pad15{
 	padding: 15px;
@@ -1145,7 +1149,7 @@ footer{
 	color:#fff;
 }
 .footer-nav li a{
-	font-size: 12px;
+	font-size: 14px;
 	color: #fff;
 	margin-bottom: 16px;
 }
@@ -1892,4 +1896,16 @@ img.ajax-loader{
 		width: auto;
 		padding: 6px;
 	}
+}
+
+
+#nf-field-112-wrap ul li {
+	float: left;
+	padding-left: 8px!important;
+}
+.sub-btn{
+	width: 100%!important;
+	background: #4cae4c;
+	padding: 16px 0px;
+	color: #fff;
 }

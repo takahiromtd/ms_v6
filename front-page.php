@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/news.js"></script>
+<!-- <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/news.js"></script> -->
 <div class="front-page">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -17,7 +17,7 @@
             <h1 class="front-top-message tk-ro-nikkatsu-sei-kai-std">今が変わる 将来が変わる<br>きみの変態を支援。</h1>
             <div class="row mt40 hidden-xs hidden-sm">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会の詳細はこちら">説明会開催中!!<br>エントリーはこちら</a></div> -->
+                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会へ申し込む">説明会開催中!!<br>エントリーはこちら</a></div> -->
               </div>
             </div>
           </div>
@@ -30,7 +30,7 @@
             <h1 class="front-top-message tk-ro-nikkatsu-sei-kai-std">ビジネスの力を試したい。</h1>
             <div class="row mt40 hidden-xs hidden-sm">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会の詳細はこちら">説明会開催中!!<br>エントリーはこちら</a></div> -->
+                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会へ申し込む">説明会開催中!!<br>エントリーはこちら</a></div> -->
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@
             <h1 class="front-top-message tk-ro-nikkatsu-sei-kai-std">海外で働きたい。</h1>
             <div class="row mt40 hidden-xs hidden-sm">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会の詳細はこちら">説明会開催中!!<br>エントリーはこちら</a></div> -->
+                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会へ申し込む">説明会開催中!!<br>エントリーはこちら</a></div> -->
               </div>
             </div>
           </div>
@@ -56,13 +56,13 @@
             <h1 class="front-top-message tk-ro-nikkatsu-sei-kai-std">自分を変えたい。</h1>
             <div class="row mt40 hidden-xs hidden-sm">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会の詳細はこちら">説明会開催中!!<br>エントリーはこちら</a></div> -->
+                <!-- <div class="text-center"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会へ申し込む">説明会開催中!!<br>エントリーはこちら</a></div> -->
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center absolute hidden-xs hidden-sm"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会の詳細はこちら">説明会開催中!!<br>エントリーはこちら</a></div>
+      <div class="text-center absolute hidden-xs hidden-sm"><a class="btn btn-default bold main-visual-link" href="/sche/" title="説明会へ申し込む">説明会開催中!!<br>エントリーはこちら</a></div>
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -85,7 +85,7 @@
       </div>
     <?php endif; wp_reset_postdata(); //クエリのリセット ?> -->
   </div>
-  <div class="banner-menu">
+  <div class="banner-menu hidden-xs hidden-sm">
     <div class="w33 pull-left">
       <a class="link-white" href="/about/" title="プログラム内容">
         <div class="banner-menu-left">
@@ -100,6 +100,17 @@
     <div class="w33 pull-left">
       <a class="link-white" href="/facilitator/" title="ファシリテーター">
         <div class="banner-menu-center">
+          <p class="bold text-center banner-menu-fs mt10">プログラム説明会</p>
+          <p class="bold text-center hidden-xs hidden-sm">全国で30数カ所で<br>説明会を実施中</p>
+          <div class="front-intro-block text-center hidden-xs hidden-sm">
+            <a class="btn btn-default bold white-button" href="/sche/" title="詳しくはこちら"><i class="fa fa-angle-right"></i> 詳しくはこちら</a>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="w33 pull-left">
+      <a class="link-white" href="/sche/" title="詳しくはこちら">
+        <div class="banner-menu-right">
           <p class="bold text-center banner-menu-fs mt10">ファシリテーター</p>
           <p class="bold text-center hidden-xs hidden-sm">人材育成のプロがサポート<br>ビジネスと人間関係・リーダーシップを学ぶ</p>
           <div class="front-intro-block text-center hidden-xs hidden-sm">
@@ -108,17 +119,10 @@
         </div>
       </a>
     </div>
-    <div class="w33 pull-left">
-      <a class="link-white" href="/sche/" title="詳しくはこちら">
-        <div class="banner-menu-right">
-          <p class="bold text-center banner-menu-fs mt10">プログラム説明会</p>
-          <p class="bold text-center hidden-xs hidden-sm">全国で説明会を実施中<br>選べる3つの説明会参加方法</p>
-          <div class="front-intro-block text-center hidden-xs hidden-sm">
-            <a class="btn btn-default bold white-button" href="/sche/" title="詳しくはこちら"><i class="fa fa-angle-right"></i> 詳しくはこちら</a>
-          </div>
-        </div>
-      </a>
-    </div>
+  </div>
+  <div class="visible-xs visible-sm pad10 bg-gray">
+    <p class="text-center bold">過去2,021人が参加！！<br>2018年夏のプログラム説明会を開催中</p>
+    <div class="text-center mt20 entry-button"><a class="btn btn-default bold btn-block" href="/sche/" title="説明会の詳細">説明会日程を確認する</a></div>
   </div>
   <div class="section">
     <div class="container">
@@ -127,7 +131,7 @@
         <h2 class="text-center bold">海外ビジネス武者修行プログラム<sup>&reg;</sup>とは</h2>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 mb30">
           <div class="embed-responsive embed-responsive-16by9 border-bold">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GQ33g9m7f2c" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GQ33g9m7f2c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p30">
@@ -198,7 +202,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <p class="text-center fs20 mb5 red bold">総勢1559名が参加!!</p>
+        <p class="text-center fs20 mb5 red bold">総勢2021名が参加!!</p>
         <h2 class="text-center bold">こんな人が参加しています</h2>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mb20">
           <img class="img-responsive center-block border-gray" src="<?php bloginfo('template_directory'); ?>/img/type2.png">
@@ -238,7 +242,7 @@
       </div>
       <h2 class="text-center bold">気になる英語力について</h2>
       <p class="responsive-text-left">英語に自信がない方も参加いただいて大丈夫です。<br>これまでも英語がほとんど話せないという学生が多数参加しています。<br>英語に自信がなくともコミュニケーションするマインドを身につけたり、<br>帰国後の英語学習のモチベーションアップにもなります。</p>
-      <div class="text-center mt40 entry-button"><a class="btn btn-default bold" href="/sche/" title="説明会の詳細はこちら">説明会の詳細はこちら</a></div>
+      <div class="text-center mt40 entry-button"><a class="btn btn-default bold" href="/sche/" title="説明会の詳細">説明会へ申し込む</a></div>
     </div>
   </div>
   <div class="pc-section bg-gray">
@@ -314,21 +318,13 @@
   <div class="section bg-gray">
     <div class="container">
       <div class="row mb80">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb40">
+<!--         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb40">
           <p class="text-center fs20 mb5 red bold">年末・春休みの開催決定</p>
           <p class="text-center ">プログラムへの参加ご希望の方はお早めに説明会へのご参加をお願いします。</p>
-        </div>
-<!--         <h2 class="text-center bold mb20">2016年年末の開催スケジュール</h2>
+        </div> -->
+        <h2 class="text-center bold mb20">2018年夏の開催スケジュール</h2>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img class="img-responsive center-block bg-white mb40" src="<?php bloginfo('template_directory'); ?>/img/schedule2016ny.png" alt="開催スケジュール">
-        </div>    -->     
-        <h2 class="text-center bold mb20">2017年末の開催スケジュール</h2>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img class="img-responsive center-block bg-white mb40" src="<?php bloginfo('template_directory'); ?>/img/sche_2017winter.png" alt="開催スケジュール">
-        </div>
-        <h2 class="text-center bold mb20">2018年春の開催スケジュール</h2>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <img class="img-responsive center-block bg-white" src="<?php bloginfo('template_directory'); ?>/img/sche_2018spring.png" alt="開催スケジュール">
+          <img class="img-responsive center-block bg-white mb40" src="<?php bloginfo('template_directory'); ?>/img/sche_2018summer.png" alt="開催スケジュール">
         </div>
       </div>
       <?php get_template_part('motivate-entry'); ?>
