@@ -121,7 +121,7 @@
     </div>
   </div>
   <div class="visible-xs visible-sm pad10 bg-gray">
-    <p class="text-center bold">過去2,021人が参加！！<br>2018年夏のプログラム説明会を開催中</p>
+    <p class="text-center bold">過去2,020人が参加！！<br>2018年夏のプログラム説明会を開催中</p>
     <div class="text-center mt20 entry-button"><a class="btn btn-default bold btn-block" href="/sche/" title="説明会の詳細">説明会日程を確認する</a></div>
   </div>
   <div class="section">
@@ -202,7 +202,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <p class="text-center fs20 mb5 red bold">総勢2021名が参加!!</p>
+        <p class="text-center fs20 mb5 red bold">総勢2020名が参加!!</p>
         <h2 class="text-center bold">こんな人が参加しています</h2>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mb20">
           <img class="img-responsive center-block border-gray" src="<?php bloginfo('template_directory'); ?>/img/type2.png">

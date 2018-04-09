@@ -590,7 +590,7 @@ Template Name: archive.php
 					<div class="bg-gray pad5">
 						<p class="bold">過去の参加者から直接プログラム内容や体験談が聞ける説明会に参加しませんか？</p>
 						<ul>
-							<li class="bold">・過去<span class="red">2,021</span>名が参加</li>
+							<li class="bold">・過去<span class="red">2,020</span>名が参加</li>
 							<li class="bold">・全国各地の大学生が参加</li>
 							<li class="bold">・英語力は完全不問</li>
 						</ul>
